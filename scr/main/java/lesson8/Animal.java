@@ -1,6 +1,6 @@
 package lesson8;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
 
@@ -29,7 +29,5 @@ public class Animal {
         this.age = age;
     }
 
-    public void voice(){
-        System.out.println("Голос!");
-    }
+    public abstract void voice();
 }
