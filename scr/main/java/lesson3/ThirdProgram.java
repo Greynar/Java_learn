@@ -23,11 +23,11 @@ public class ThirdProgram {
             if (D < 0) {
                 System.out.println("Нет действительных решений уравнения");
             } else if (D == 0) {
-                double x = -b / 2 * a;
+                double x = -b / (2 * a);
                 System.out.println("Корень уравнения - " + x);
             } else {
-                double x1 = (-b + Math.sqrt(D)) / 2 * a;
-                double x2 = (-b - Math.sqrt(D)) / 2 * a;
+                double x1 = (-b + Math.sqrt(D)) / (2 * a);
+                double x2 = (-b - Math.sqrt(D)) / (2 * a);
                 System.out.println("Корни уравнения - " + x1 + " " + x2);
             }
         }
