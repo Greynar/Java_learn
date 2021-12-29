@@ -5,11 +5,11 @@ public final class Car extends Automobile {
     private static final int MAX_DISTANCE = 500;
 
     public Car(String model) {
-        super(model);
+        this.model = model;
     }
 
     public void move(int distance) {
         String text = distance <= MAX_DISTANCE ? " проехал " : " не смог проехать ";
-        System.out.println("Автомобиль " + super.model + text + distance + " км");
+        System.out.println("Автомобиль " + this.model + text + distance + " км");
     }
 }
