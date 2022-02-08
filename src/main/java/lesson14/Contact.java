@@ -1,8 +1,5 @@
 package lesson14;
 
-import java.util.Collection;
-import java.util.HashSet;
-
 public class Contact {
 
     private final String name;
